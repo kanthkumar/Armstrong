@@ -2,6 +2,13 @@
 # The program should return true or false
 
 def checkArmstrong(num):
-        # Your code goes here
-# testing git commits
-       return False
+        sumi = 0
+        temp = num
+        while temp > 0:
+                digit = temp % 10
+                sumi += digit ** 3
+                temp //= 10
+        if num == sum:
+                return True
+        else:
+                return False
