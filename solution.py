@@ -4,4 +4,4 @@
 def checkArmstrong(num):
         # Your code goes here
 # testing git commits
-       return True
+       return False
