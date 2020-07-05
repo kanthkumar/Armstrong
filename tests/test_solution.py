@@ -1,6 +1,6 @@
 import os,sys
 sys.path.append(os.getcwd())
-from solution import checkArmstrong
+from Solution.solution import checkArmstrong
 import pytest
 
 
