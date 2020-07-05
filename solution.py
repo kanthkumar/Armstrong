@@ -10,6 +10,9 @@ def checkArmstrong(num):
                 temp //= 10
         if num == sum:
                 return True
+
+
+
         else:
 
 
