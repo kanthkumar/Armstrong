@@ -2,10 +2,10 @@
 # The program should return true or false
 
 def checkArmstrong(num):
-        sumi = 0
+        sumit = 0
         temp = num
         while temp > 0:
                 digit = temp % 10
-                sumi += digit ** len(str(num))
+                sumit += digit ** len(str(num))
                 temp //= 10
-        return num == sumi
+        return num == sumit
