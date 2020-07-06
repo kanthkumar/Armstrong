@@ -9,7 +9,7 @@ def checkArmstrong(num):
                 sumi += digit ** 3
                 temp //= 10
         if num == sumi:
-                return False
+                return True
         else:
 
-                return True
+                return False
