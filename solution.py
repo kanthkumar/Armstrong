@@ -8,5 +8,4 @@ def checkArmstrong(num):
                 digit = temp % 10
                 sumit += digit ** len(str(num))
                 temp //= 10
-#IrfaShaik Writing this
         return num == sumit
