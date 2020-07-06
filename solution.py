@@ -11,4 +11,5 @@ def checkArmstrong(num):
         if num == sumi:
                 return True
         else:
-                return True
+
+                return False
