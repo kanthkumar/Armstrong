@@ -10,7 +10,3 @@ def checkArmstrong(num):
                 temp //= 10
         if num == sumi:
                 return True
-        else:
-
-
-                return False
