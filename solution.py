@@ -6,7 +6,7 @@ def checkArmstrong(num):
         temp = num
         while temp > 0:
                 digit = temp % 10
-                sumi += digit ** 3
+                sumi += digit ** len(str(num))
                 temp //= 10
         if num == sumi:
                 return True
